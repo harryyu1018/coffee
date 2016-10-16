@@ -14,5 +14,43 @@
   <url>http://maven.apache.org</url>
   
   <dependencies>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>${logback.version}</version>
+    </dependency>
+
   </dependencies>
+
+  <repositories>
+    <repository>
+      <id>mvnrepository</id>
+      <url>http://central.maven.org/maven2/</url>
+    </repository>
+    <repository>
+      <id>oschina.net</id>
+      <url>http://maven.oschina.net/content/groups/public/</url>
+    </repository>
+    <repository>
+      <id>oschina.net 3rd</id>
+      <url>http://maven.oschina.net/content/repositories/thirdparty/</url>
+    </repository>
+    <repository>
+      <id>osgeo</id>
+      <url>http://download.osgeo.org/webdav/geotools/</url>
+    </repository>
+    <repository>
+      <id>opengeo</id>
+      <url>http://repo.opengeo.org/</url>
+    </repository>
+    <repository>
+      <id>repo1.maven.org</id>
+      <url>http://repo1.maven.org/maven2/</url>
+    </repository>
+    <repository>
+      <id>repository.sonatype.org</id>
+      <url>http://repository.sonatype.org/content/groups/public/</url>
+    </repository>
+  </repositories>
+
 </project>

@@ -8,9 +8,9 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>coffee-service-es</artifactId>
+  <artifactId>coffee-service-kafka</artifactId>
   <packaging>jar</packaging>
-  <name>coffee-service-es</name>
+  <name>coffee-service-kafka</name>
   <url>http://maven.apache.org</url>
 
   <dependencies>
@@ -20,10 +20,6 @@
       <version>1.0-SNAPSHOT</version>
     </dependency>
 
-    <dependency>
-      <groupId>org.elasticsearch</groupId>
-      <artifactId>elasticsearch</artifactId>
-      <version>${elasticSearch.version}</version>
-    </dependency>
   </dependencies>
+
 </project>

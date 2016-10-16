@@ -9,20 +9,32 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-	<java.version>1.7</java.version>
-	<testng.version>6.8.1</testng.version>
+      <java.version>1.7</java.version>
+      <elasticSearch.version>2.3.5</elasticSearch.version>
+      <logback.version>1.1.3</logback.version>
+      <testng.version>6.8.1</testng.version>
   </properties> 
 
  <dependencies>
-    <dependency>
-      <groupId>org.testng</groupId>
-      <artifactId>testng</artifactId>
-      <version>${testng.version}</version>
-      <scope>test</scope>
-    </dependency>
+     <dependency>
+         <groupId>ch.qos.logback</groupId>
+         <artifactId>logback-classic</artifactId>
+         <version>${logback.version}</version>
+     </dependency>
+
+     <dependency>
+       <groupId>org.testng</groupId>
+       <artifactId>testng</artifactId>
+       <version>${testng.version}</version>
+       <scope>test</scope>
+     </dependency>
+
   </dependencies>
   <modules>
     <module>coffee-core</module>
     <module>coffee-service-es</module>
+    <module>coffee-service-zookeeper</module>
+    <module>coffee-service-hbase</module>
+    <module>coffee-service-kafka</module>
   </modules>
 </project>
